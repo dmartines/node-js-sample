@@ -8,6 +8,14 @@ app.get('/dmartines-1234', function(request, response) {
   response.send('Hello World!')
 })
 
+app.get('/', function(request, response) {
+  response.send('Hello there!')
+})
+
+app.get('/bcg', function(request, response) {
+  response.send('Hey BCG!')
+})
+
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
 })
