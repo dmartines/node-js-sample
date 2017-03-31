@@ -9,7 +9,11 @@ app.get('/dmartines-1234', function(request, response) {
 })
 
 app.get('/', function(request, response) {
-  response.send('Hello there!')
+  response.send('Hello World!')
+})
+
+app.get('/cat', function(request, response) {
+  response.send('Cats!')
 })
 
 app.get('/bcg', function(request, response) {
